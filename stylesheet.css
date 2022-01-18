@@ -38,14 +38,10 @@ form {
   padding-right: 20px;
   background-color: green;
   height: 30px;
-}
-
-#name {
-  margin-bottom: 5%;
+  cursor: pointer;
 }
 
 #email {
-  margin-bottom: 5%;
   display: block;
 }
 
@@ -60,11 +56,6 @@ form {
 }
 
 #dropdown {
-  margin-bottom: 5%;
-  display: block;
-}
-
-#select-current-role {
   margin-bottom: 5%;
   display: block;
 }
@@ -84,16 +75,10 @@ form {
 
 textarea {
   width: 88%;
-  margin-bottom: 5% ;
 }
 
-
-input {
-  margin-bottom: 10px;
-}
-
-.seprate {
-  margin-bottom: 4%;
+.bottom {
+  margin-bottom: 3%;
 }
 
 #description {
