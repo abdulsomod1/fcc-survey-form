@@ -22,10 +22,10 @@
       <h1 id="title">Freecodecamp survey-form</h1>
       <p id="description">Thanks for assisting us in all our survey projects</p>
       <form id="survey-form">
-        <label id="name-label" class="block" for="name">Name</label>
+        <label id="name-label" class="block height" for="name">Name</label>
         <input
           id="name"
-          class="long bottom"
+          class="long bottom height"
           placeholder="Enter your name"
           name="name"
           required
@@ -34,7 +34,7 @@
         <input
           type="email"
           id="email"
-          class="long margin bottom"
+          class="long margin bottom height"
           name="email"
           placeholder="Enter you email"
           required
@@ -45,7 +45,7 @@
         <input
           type="number"
           id="number"
-          class="long margin"
+          class="long margin height"
           placeholder="Age"
           name="quantity"
           min="1"
@@ -57,7 +57,7 @@
         <select
           id="select-role"
           title="select-role"
-          class="long bottom"
+          class="long bottom height"
           name="select-role"
         >
           <option value="dropdown">select a current role</option>
@@ -99,7 +99,7 @@
         <select
           id="dropdown"
           title="select-option"
-          class="long bottom margin"
+          class="long bottom margin height"
           name="select-option"
         >
           <option value="dropdown">select an option</option>
@@ -202,7 +202,9 @@
         >
 All is well</textarea
         >
+        <div>
         <input type="submit" class="submit buttom" id="submit" name="submit" />
+      </div>
       </form>
       <script src="./bundle.js"></script>
     </div>
