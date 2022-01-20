@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+form {
+  background-color: rgba(27, 27, 50, 0.8);
+  margin-left: 20%;
+  margin-right: 25%;
+  padding-top: 3%;
+  text-align: left;
+  padding-left: 3%;
+  border-radius: 5px;
+  padding-bottom: 70px;
+  opacity: 1.7;
+  min-width: 500px;
+}
+
+.block {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.long {
+  width: 88%;
+  border-radius: 3px;
+  height: 25px;
+  border: 3px;
+}
+
+.submit {
+  width: 88%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #37af65;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  border: 0;
+}
+
+#email {
+  display: block;
+}
+
+#number {
+  margin-bottom: 5%;
+  display: block;
+}
+
+#select-role {
+  margin-bottom: 5%;
+  display: block;
+}
+
+#dropdown {
+  margin-bottom: 5%;
+  display: block;
+}
+
+.background-image {
+  background-image: url("survey-form-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+textarea {
+  width: 88%;
+}
+
+.bottom {
+  margin-bottom: 3%;
+}
+
+#description {
+  font-style: italic;
+}
+
+.height {
+  height: 35px;
+}
